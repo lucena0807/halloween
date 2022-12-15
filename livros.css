@@ -1,0 +1,106 @@
+header{
+    width: 100%;
+    height: 30vh;
+    display: flex; justify-content: space-between;
+    background-color: rgba(255, 68, 0, 0.822);
+}
+
+header div img{
+    width: 200px;
+    height: 200px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin-right: 100px;
+    padding-top: 70px;
+    font-weight: 600;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    color: red;
+}
+
+#logo{
+  margin-left: 100px;
+}
+main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(182, 0, 0, 0.87);
+    padding-bottom: 200px;
+    
+}
+#card1{
+    width: 237px; height: 346px;
+    position: relative;
+    
+    
+}
+#card1::after{
+    content: 'djfhsdhfsdhfhsdfhusfhuishfuir' ;
+    position: absolute;
+    top: 0%; left: 0%;
+    width: 102%; height: 100%;
+    background-color: orangered;
+    visibility: hidden;
+
+}
+#card1:hover::after{
+    
+    visibility: visible;
+}
+#card2{
+    width: 237px; height: 346px;
+    position: relative;
+    
+    
+}
+#card2::after{
+    content: 'djfhsdhfsdhfhsdfhusfhuishfuirhu' ;
+    position: absolute;
+    top: 0%; left: 0%;
+    width: 102%; height: 100%;
+    background-color: orangered;
+    visibility: hidden;
+
+}
+#card2:hover::after{
+    
+    visibility: visible;
+}
+#card3{
+    width: 237px; height: 346px;
+    position: relative;
+    
+    
+}
+#card3::after{
+    content: 'djfhsdhfsdhfhsdfhusfhuishfuirhu' ;
+    position: absolute;
+    top: 0%; left: 0%;
+    width: 102%; height: 100%;
+    background-color: orangered;
+    visibility: hidden;
+
+}
+#card3:hover::after{
+    
+    visibility: visible;
+}
+footer
+{
+    width: 100vw; height: 250px;
+    background-color: rgba(255, 68, 0, 0.822);
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+span{
+    margin-left:400px;
+    font-size:x-large;
+}
